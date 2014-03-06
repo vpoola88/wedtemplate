@@ -1,37 +1,3 @@
-
-/* -------------------------------------------------- */
-/*-----------------------------------------------------------------------------
-
-  INNOVATE THEME - (theme.css)
-
-  Version:    1.1.2
-  Date:       2/9/14
-  Author:     Giovanni Design
-  Email:      support@giovannifilippi.com.com
-  Website:    http://www.giovannifilippi.com
-
-  SECTIONS
-  1. HTML
-  2. SCAFFOLDING
-  3. GLOBAL
-  4. HEADER / NAV
-  5. SLIDER
-  6. BAR
-  7. FEATURES
-  8. GALLERY
-  9. ABOUT
-  10. BLOG / POSTS
-  11. CLIENTS
-  12. CONTACT
-  13. MAP
-  14. FOOTER
-  15. SPECIAL ELEMENTS
-  16. FORM
-
------------------------------------------------------------------------------*/
-/* -------------------------------------------------- */
-
-
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
 
@@ -1037,15 +1003,15 @@ a.nav-toggle {
 
 .registry_banner { top: 60%; }
 
-.hero { background: #2584a2 url(../images/header.jpg) center no-repeat; background-size: cover; }
+.hero { background: #2584a2 url(../images/header1.jpg) center no-repeat; background-size: cover; }
 
-.story { background: #2584a2 url(../images/story.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
+.story { background: #2584a2 url(../images/story1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
 
-.party { background: #2584a2 url(../images/party.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
+.party { background: #2584a2 url(../images/party1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
 
-.info { background: #2584a2 url(../images/guestinfo.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
+.info { background: #2584a2 url(../images/guestinfo1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
 
-.registry { background: #2584a2 url(../images/registry.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
+.registry { background: #2584a2 url(../images/registry1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
 
 
 .absolute { position: absolute; }
