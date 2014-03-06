@@ -1,0 +1,313 @@
+// SMALL DEVICES
+/* -------------------------------------------------- */
+@media (max-width: 767px) { 
+	
+	// HTML 
+	
+	h2 {
+		font-size: 24px;
+	}
+
+	hr {
+		margin: 20px 0;
+		&.lg {
+			margin: 50px 0;
+		}
+	}
+
+
+	// SLIDER 
+	#slider {
+		height: 200px;
+	}
+
+	.cycle-overlay { 
+		position: absolute; 
+	    bottom: 30%;
+	    width: 80%;
+	    margin: 0 10%;
+	    padding: 15px;
+	    border-radius: 0;
+	    & span.title {
+	    	position: relative;
+	    	font-size: 28px;
+	    }
+	}
+
+
+
+	// HEADER / NAV
+	
+	#header {
+		& .container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		& .row {
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	#drop {
+		display: none;
+	}
+	
+	.logo {
+		float: none;
+		position: relative;
+		margin-top: 15px;
+	}
+
+	a.nav-toggle {
+		display: block;
+	}
+
+	
+	nav#nav {
+		margin-top: 51px;
+		width: 100%;
+	}
+
+	ul.nav {
+		display: none;
+		float: none;
+		position: relative;
+		top: 10px;
+		width: 100%;
+		max-height: 260px;
+		background-color: #fff;
+		border: 1px solid lighten($text-color,60);
+		border-radius: 6px;
+		overflow-y: scroll;
+		-webkit-box-shadow: 0 2px 8px rgba(#000, 0.2);
+       	   -moz-box-shadow: 0 2px 8px rgba(#000, 0.2);
+           	    box-shadow: 0 2px 8px rgba(#000, 0.2);
+		& li {
+			display: inline-block;
+			float: none;
+			width: 100%;
+			margin: 0;
+			padding: 8px 0;
+			&.active a {
+				color: $brand-primary;
+			}
+			&.cta {
+				border-bottom: none;		
+			}
+			& a {
+				margin-top: 7px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				color: $text-color;
+				&:hover {
+					background-color: transparent;
+					color: $brand-primary;
+				}
+				&.btn {
+					margin: 3px 0 0;
+					background-color: $brand-primary;
+					border-color: $brand-primary;
+					border-bottom: 2px solid darken($brand-primary,15);
+					padding: 7px 15px 6px;
+					color: #fff;
+				}
+			}
+		}
+	}
+	
+	// BAR 
+
+	#bar {
+		& p {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	// ABOUT
+
+	#about {
+		& .about-item {
+			margin: 15px 0 50px;
+		}
+	}
+
+	//BLOG 
+
+	#blog {
+		padding: 25px 10px ;
+		& h1 {
+			@include font-size(2.5);
+		}
+		.post-snippet {
+			padding-left: 0;
+			padding-right: 0;
+			text-align: center;
+		}
+	}
+	
+
+	// CLIENTS
+
+	.client-list {
+		font-size: 26px;
+		& i {
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			margin: 0 1%;
+		}
+	}	
+
+
+	// FOOTER
+
+	#footer {
+		height: 110px;
+		padding: 30px 0 0;
+		line-height: 20px;
+		text-align: center;
+		& .byline {
+			text-align: center;
+		}
+	}
+
+
+}
+
+
+
+
+// MEDIA DEVICES
+/* -------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 993px) { 
+	
+
+	// HTML 
+	
+	h2 {
+		font-size: 30px;
+	}
+	
+
+	// GLOBAL 
+
+	p.details {
+		font-size: 14px;
+		padding-bottom: 35px;
+	}	
+
+
+	// SLIDER 
+
+	#slider {
+		height: 400px;
+	}
+
+	.cycle-overlay { 
+	    & span.title {
+	    	font-size: 50px;
+	    }
+	}
+
+
+	// HEADER / NAV
+	
+	ul.nav {
+		margin-top: 6px;
+		& li {
+			& a {
+				font-size: 12px;
+				padding-left: 12px;
+				padding-right: 12px;
+			}
+		}
+	}
+
+	#drop {
+		display: none;
+		visibility: hidden;
+	}
+
+	
+	// FEATURES
+
+	#features {
+		a {
+			display: inline-table;
+			margin: 25px 0 35px;
+		}
+	}
+	
+
+	// ABOUT
+
+	#about {
+		& .about-item {
+			margin: 25px 0 50px;
+		}
+	}
+
+	// CLIENTS
+
+	.client-list {
+		font-size: 30px;
+		& i {
+			width: 70px;
+			height: 70px;
+			line-height: 70px;
+			margin: 0 1%;
+		}
+	}	
+
+
+	// SPECIAL ELEMENTS
+
+	.overlay {
+		& a .overlay-board {
+	        &.sm {
+		    	& i {
+					width: 100px;
+		        	height: 100px;
+		        	margin-top: 25%;
+		        	font-size: 50px;
+		        	line-height: 100px;
+		        	border-radius: 100px;
+		    	}
+		    }
+	        & i {
+	        	width: 75px;
+	        	height: 75px;
+	        	margin-top: 25%;
+	        	color: #fff;
+	        	font-size: 27px;
+	        	line-height: 75px;
+	        	border-radius: 50px;
+	        }
+	    }
+	    & a.btn-overlay {
+        	&.icon-only {
+				font-size: 30px;
+				& i {
+					padding: 5px 20px;
+				}
+        	}
+        }
+	}
+}
+
+
+
+
+
+
+
+// LARGE DEVICES
+/* -------------------------------------------------- */
+@media (max-width: 1199px) { 
+
+	// SLIDER 
+
+
+}
