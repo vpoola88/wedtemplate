@@ -113,9 +113,9 @@ span.gc-cs-link {
     color: #a22545; }
 
 a {
-  color: #312642; }
+  color: #7AB317; }
   a:hover {
-    color: #312642;
+    color: #7AB317;
     text-decoration: underline; }
 
 a:hover > i.fa.fa-twitter {
@@ -370,12 +370,12 @@ a.nav-toggle {
   /*text-shadow: 0 1px 1px #fff;*/
   padding: 10px 20px 10px 20px; font-size: 24px; }
   #bar a:hover {
-    color: #FFF;
-    border: 1px solid #FFF; }
+    color: #7AB317;
+    border: 1px solid #7AB317; }
 
 /* -------------------------------------------------- */
 #features a {
-  color: #203e51;
+  color: #7AB317;
   text-decoration: none; }
   #features a .i-overlay {
     font-size: 60px;
@@ -812,6 +812,8 @@ a.nav-toggle {
 
 /* -------------------------------------------------- */
 @media (max-width: 767px) {
+
+  h1 { font-size: 34px !important; line-height: 1.4em; }
   h2 {
     font-size: 24px; }
 
@@ -821,7 +823,7 @@ a.nav-toggle {
       margin: 50px 0; }
 
   #slider {
-    height: 200px; }
+    height: 300px; }
 
   .cycle-overlay {
     position: absolute;
@@ -840,9 +842,9 @@ a.nav-toggle {
   #header .row {
     margin: 0;
     padding: 0; }
-
+/*
   #drop {
-    display: none; }
+    display: none; }*/
 
   .logo {
     float: none;
@@ -862,7 +864,7 @@ a.nav-toggle {
     position: relative;
     top: 10px;
     width: 100%;
-    max-height: 260px;
+    /*max-height: 260px;*/
     background-color: #fff;
     border: 1px solid #bed6e5;
     border-radius: 6px;
@@ -875,7 +877,7 @@ a.nav-toggle {
       float: none;
       width: 100%;
       margin: 0;
-      padding: 8px 0; }
+     /* padding: 8px 0;*/ }
       ul.nav li.active a {
         color: #25a244; }
       ul.nav li.cta {
@@ -950,9 +952,9 @@ a.nav-toggle {
       padding-left: 12px;
       padding-right: 12px; }
 
-  #drop {
+/*  #drop {
     display: none;
-    visibility: hidden; }
+    visibility: hidden; }*/
 
   #features a {
     display: inline-table;
@@ -1000,19 +1002,23 @@ a.nav-toggle {
 
 .party_banner { top: 60%; }
 
-.info_banner { top: 60%; }
+.info_banner { top: 60%; right: 30%; }
 
 .registry_banner { top: 60%; }
+
+.contact_banner { top: 60%; left: 20%; }
 
 .hero { background: #2584a2 url(../images/guestinfo1.jpg) center no-repeat; background-size: cover; }
 
 .story { background: #2584a2 url(../images/story1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
 
-.party { background: #2584a2 url(../images/party1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
+.party { background: #2584a2 url(../images/registry1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
 
-.info { background: #2584a2 url(../images/guestinfo1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
+.info { background: #2584a2 url(../images/info.jpg) center no-repeat; background-size: cover; background-position-y: 16% }
 
-.registry { background: #2584a2 url(../images/registry1.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
+.registry { background: #2584a2 url(../images/registry.jpg) center no-repeat; background-size: cover; background-position-y: 30% }
+
+.contact { background: #2584a2 url(../images/contact.jpg) center no-repeat; background-size: cover; background-position-y: 10% }
 
 
 .absolute { position: absolute; }
